@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./css/img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <title>Matcha Green Tea</title>
+  </head>
+  <body>
+    <header>
+      <h1>Matcha Green Tea</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Our Matcha</a></li>
+        <li><a href="#">Merch</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Donate</a></li>
+      </ul>
+    </nav>
+    <div id="homehero"></div>
+    <main>
+      <h2>
+        <span id="green"
+          ><a href="#"><em>Matcha Green Tea</em> </a></span
+        >
+        is Really Good!
+      </h2>
+      <p>
+        <a href="#footer">Matcha Green Tea Lattes</a> are my favorite drink! I
+        love the fact that it taste somewhat like grass which is really weird.
+        But I love the taste and there are some benefits to drinking Lattes for
+        me. One example is that is has a bit of caffeine if I want to wake up.
+        Not being a coffee person makes this perfect for me.
+      </p>
+      <form action="#">
+        <input required class="inputone" placeholder="Username" type="text" />
+        <br />
+        <input
+          required
+          class="inputone"
+          placeholder="Passowrd"
+          type="password"
+        />
+        <br />
+        <button class="inputone button" type="submit">Submit</button>
+      </form>
+      <ol type="A">
+        <a href=""><li>Matcha Green Tea</li></a>
+        <a href=""><li>Matcha Green Tea Latte Warm</li></a>
+        <a href=""><li>Matcha Green Tea Latte Iced</li></a>
+      </ol>
+      <p>Which is your favorite?</p>
+      <!--This form is very important because it will tie in with javascript!
+      remember always match the label for="" with the input id="" this insures
+      they are connected! Also if you want radio buttons to deselect when you
+      select a different one you must give all the input values the same name!-->
+      <form action="#">
+        <label for="matcha">
+          Green Tea
+          <input
+            value="Green Tea"
+            id="matcha"
+            name="matcha-green"
+            type="radio"
+          />
+        </label>
+        <br />
+        <!--The value attribute takes the name for example here its matcha-green
+        on these 3 radio buttons. Then it equals the name to the value selected.
+        For example, Green tea Latte Warm has a name of matcha-green and a value of
+        Green Tea Latee Warm so matcha-green=Green Tea Latte Warm! If the value was
+        Green Tea Latte Iced it would be matcha-green=Green Tea Latte Iced.-->
+        <label for="matchalatte">
+          Green Tea Latte Warm
+          <input
+            value="Green Tea Latte Warm"
+            id="matchalatte"
+            name="matcha-green"
+            type="radio"
+          />
+        </label>
+        <br />
+        <label for="matchalatteiced">
+          Green Tea Latte Iced
+          <input
+            value="Green Tea Latte Iced"
+            id="matchalatteiced"
+            name="matcha-green"
+            type="radio"
+          />
+        </label>
+        <br />
+        <button class="inputone button" type="submit">Submit</button>
+      </form>
+      <p>Here is another picture of the powder it comes from!</p>
+      <img src="./css/img/matcha-co-pC16vUGYCL4-unsplash.jpg" alt="" />
+    </main>
+    <footer id="footer">
+      <p id="addy">
+        Matcha Green Tea Latte
+        <br />
+        888 Ybor Street
+        <br />
+        Florida, Tampa 33211
+      </p>
+      <p id="copy">
+        &copy; 2022 Matcha Green Tea
+        <br />
+        MatchaYborspot@gmail.com
+        <br />
+        888-888-8888
+      </p>
+    </footer>
+  </body>
+</html>
